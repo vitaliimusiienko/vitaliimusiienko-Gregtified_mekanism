@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:cobaltite_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_cobaltite_dust"
+  }
+}

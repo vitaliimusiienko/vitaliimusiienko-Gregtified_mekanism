@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_certus_quartz_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:certus_quartz_dust"
+  }
+}

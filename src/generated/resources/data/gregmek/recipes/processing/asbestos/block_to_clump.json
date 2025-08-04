@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "gtceu:asbestos_ore"
+    }
+  },
+  "output": {
+    "count": 3,
+    "item": "gtceu:asbestos_clump"
+  }
+}

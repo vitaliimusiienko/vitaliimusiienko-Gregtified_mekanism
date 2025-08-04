@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:graphite_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_graphite_dust"
+  }
+}

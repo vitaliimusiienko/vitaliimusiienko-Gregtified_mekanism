@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:saltpeter_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_saltpeter_dust"
+  }
+}

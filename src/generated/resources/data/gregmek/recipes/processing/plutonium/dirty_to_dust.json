@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_plutonium_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:plutonium_dust"
+  }
+}

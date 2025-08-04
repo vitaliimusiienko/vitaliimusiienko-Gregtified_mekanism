@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_opal_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:opal_dust"
+  }
+}

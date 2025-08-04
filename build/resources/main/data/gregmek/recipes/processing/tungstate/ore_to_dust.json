@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:tungstate_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:tungstate_dust"
+  }
+}

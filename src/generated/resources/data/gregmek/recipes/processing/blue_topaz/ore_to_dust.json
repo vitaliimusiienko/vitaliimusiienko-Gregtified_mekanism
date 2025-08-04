@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:blue_topaz_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:blue_topaz_dust"
+  }
+}

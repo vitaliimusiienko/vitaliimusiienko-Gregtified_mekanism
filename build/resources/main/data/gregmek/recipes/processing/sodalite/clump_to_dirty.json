@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:sodalite_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_sodalite_dust"
+  }
+}

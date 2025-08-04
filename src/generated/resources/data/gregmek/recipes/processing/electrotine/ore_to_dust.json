@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:electrotine_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:electrotine_dust"
+  }
+}

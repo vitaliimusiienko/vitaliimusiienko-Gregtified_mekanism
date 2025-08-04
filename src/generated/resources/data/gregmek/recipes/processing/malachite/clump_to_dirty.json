@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:malachite_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_malachite_dust"
+  }
+}

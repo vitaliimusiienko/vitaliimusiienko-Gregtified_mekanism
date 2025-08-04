@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:diamond_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_diamond_dust"
+  }
+}

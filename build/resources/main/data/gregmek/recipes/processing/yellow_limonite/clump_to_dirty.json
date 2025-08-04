@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:yellow_limonite_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_yellow_limonite_dust"
+  }
+}

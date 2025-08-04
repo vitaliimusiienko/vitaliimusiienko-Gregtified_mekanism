@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:garnet_sand_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:garnet_sand_dust"
+  }
+}

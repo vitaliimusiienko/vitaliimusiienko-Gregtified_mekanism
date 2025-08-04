@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:injecting",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:hydrogen_chloride"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "gtceu:cooperite_crystal"
+    }
+  },
+  "output": {
+    "item": "gtceu:cooperite_shard"
+  }
+}

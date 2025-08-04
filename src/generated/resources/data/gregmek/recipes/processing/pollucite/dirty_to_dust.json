@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_pollucite_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:pollucite_dust"
+  }
+}

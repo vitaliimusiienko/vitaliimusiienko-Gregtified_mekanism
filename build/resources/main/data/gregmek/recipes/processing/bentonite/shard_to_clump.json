@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "gtceu:bentonite_shard"
+    }
+  },
+  "output": {
+    "item": "gtceu:bentonite_clump"
+  }
+}

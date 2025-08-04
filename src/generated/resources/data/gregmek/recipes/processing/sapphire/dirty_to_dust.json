@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_sapphire_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:sapphire_dust"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_cobaltite_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:cobaltite_dust"
+  }
+}

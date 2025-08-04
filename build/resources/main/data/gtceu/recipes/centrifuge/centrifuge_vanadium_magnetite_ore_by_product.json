@@ -1,0 +1,64 @@
+{
+  "type": "gtceu:centrifuge",
+  "category": "gtceu:centrifuge",
+  "duration": 8,
+  "inputChanceLogics": {},
+  "inputs": {
+    "item": [
+      {
+        "chance": 10000,
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "tag": "forge:dirty_dusts/vanadium_magnetite"
+          }
+        },
+        "maxChance": 10000,
+        "tierChanceBoost": 0
+      }
+    ]
+  },
+  "outputChanceLogics": {},
+  "outputs": {
+    "item": [
+      {
+        "chance": 10000,
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "gtceu:vanadium_magnetite_dust"
+          }
+        },
+        "maxChance": 10000,
+        "tierChanceBoost": 0
+      },
+      {
+        "chance": 3000,
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "gtceu:magnetite_dust"
+          }
+        },
+        "maxChance": 10000,
+        "tierChanceBoost": 500
+      }
+    ]
+  },
+  "tickInputChanceLogics": {},
+  "tickInputs": {
+    "eu": [
+      {
+        "chance": 10000,
+        "content": 30,
+        "maxChance": 10000,
+        "tierChanceBoost": 0
+      }
+    ]
+  },
+  "tickOutputChanceLogics": {},
+  "tickOutputs": {}
+}

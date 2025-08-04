@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_yellow_limonite_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:yellow_limonite_dust"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:chalcocite_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_chalcocite_dust"
+  }
+}

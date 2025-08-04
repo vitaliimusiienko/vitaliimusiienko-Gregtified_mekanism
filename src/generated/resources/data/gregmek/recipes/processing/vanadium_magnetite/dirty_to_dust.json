@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_vanadium_magnetite_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:vanadium_magnetite_dust"
+  }
+}

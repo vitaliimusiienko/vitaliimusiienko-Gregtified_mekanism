@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "gtceu:raw_chalcocite"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:chalcocite_clump"
+  }
+}

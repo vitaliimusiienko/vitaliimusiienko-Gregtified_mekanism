@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_grossular_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:grossular_dust"
+  }
+}

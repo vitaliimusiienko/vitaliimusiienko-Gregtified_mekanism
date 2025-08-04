@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_lazurite_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:lazurite_dust"
+  }
+}

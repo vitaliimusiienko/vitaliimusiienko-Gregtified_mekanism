@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "gtceu:raw_granitic_mineral_sand"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:granitic_mineral_sand_clump"
+  }
+}

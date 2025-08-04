@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_electrotine_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:electrotine_dust"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:platinum_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:platinum_dust"
+  }
+}

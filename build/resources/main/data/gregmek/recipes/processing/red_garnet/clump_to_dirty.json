@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:red_garnet_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_red_garnet_dust"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:powellite_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:powellite_dust"
+  }
+}

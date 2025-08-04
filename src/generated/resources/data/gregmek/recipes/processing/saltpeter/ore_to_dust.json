@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:saltpeter_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:saltpeter_dust"
+  }
+}

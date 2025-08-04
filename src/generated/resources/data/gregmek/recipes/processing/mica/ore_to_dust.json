@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:mica_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:mica_dust"
+  }
+}

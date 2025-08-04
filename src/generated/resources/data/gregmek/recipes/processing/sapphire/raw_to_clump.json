@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "gtceu:raw_sapphire"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:sapphire_clump"
+  }
+}

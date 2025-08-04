@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:almandine_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:almandine_dust"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:kyanite_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:kyanite_dust"
+  }
+}

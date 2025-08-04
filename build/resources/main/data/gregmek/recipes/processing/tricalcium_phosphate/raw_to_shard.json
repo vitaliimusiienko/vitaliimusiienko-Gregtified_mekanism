@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:injecting",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:hydrogen_chloride"
+  },
+  "itemInput": {
+    "amount": 3,
+    "ingredient": {
+      "item": "gtceu:raw_tricalcium_phosphate"
+    }
+  },
+  "output": {
+    "count": 8,
+    "item": "gtceu:tricalcium_phosphate_shard"
+  }
+}

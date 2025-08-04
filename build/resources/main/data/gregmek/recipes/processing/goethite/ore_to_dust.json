@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:goethite_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:goethite_dust"
+  }
+}

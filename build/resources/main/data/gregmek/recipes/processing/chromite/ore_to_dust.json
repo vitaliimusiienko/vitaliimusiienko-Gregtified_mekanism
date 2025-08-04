@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:chromite_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:chromite_dust"
+  }
+}

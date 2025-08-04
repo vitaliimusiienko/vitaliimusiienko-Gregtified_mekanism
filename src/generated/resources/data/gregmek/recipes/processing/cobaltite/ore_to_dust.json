@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:cobaltite_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:cobaltite_dust"
+  }
+}

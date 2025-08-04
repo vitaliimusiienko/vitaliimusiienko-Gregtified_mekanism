@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:magnesite_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_magnesite_dust"
+  }
+}

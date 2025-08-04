@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:ruby_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_ruby_dust"
+  }
+}

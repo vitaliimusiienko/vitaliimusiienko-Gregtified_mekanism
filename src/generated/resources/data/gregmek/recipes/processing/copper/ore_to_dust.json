@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:copper_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:copper_dust"
+  }
+}

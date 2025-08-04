@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "gtceu:apatite_ore"
+    }
+  },
+  "output": {
+    "count": 3,
+    "item": "gtceu:apatite_clump"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:uraninite_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_uraninite_dust"
+  }
+}

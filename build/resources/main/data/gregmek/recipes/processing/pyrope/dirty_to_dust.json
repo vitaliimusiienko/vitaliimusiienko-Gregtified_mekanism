@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_pyrope_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:pyrope_dust"
+  }
+}

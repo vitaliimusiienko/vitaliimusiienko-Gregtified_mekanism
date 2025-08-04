@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:graphite_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:graphite_dust"
+  }
+}

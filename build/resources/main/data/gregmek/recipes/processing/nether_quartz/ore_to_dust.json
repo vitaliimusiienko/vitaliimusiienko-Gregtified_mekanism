@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:nether_quartz_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:nether_quartz_dust"
+  }
+}

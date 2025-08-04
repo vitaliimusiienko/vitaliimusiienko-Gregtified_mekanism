@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:cooperite_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:cooperite_dust"
+  }
+}

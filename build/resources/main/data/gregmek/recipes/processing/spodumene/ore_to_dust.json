@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:spodumene_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:spodumene_dust"
+  }
+}

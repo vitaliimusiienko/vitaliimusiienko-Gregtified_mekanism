@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:sapphire_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_sapphire_dust"
+  }
+}

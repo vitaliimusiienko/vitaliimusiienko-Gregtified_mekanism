@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:palladium_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:palladium_dust"
+  }
+}

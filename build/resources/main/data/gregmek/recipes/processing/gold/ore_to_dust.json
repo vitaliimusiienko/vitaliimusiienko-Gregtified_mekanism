@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:gold_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:gold_dust"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "gtceu:oilsands_shard"
+    }
+  },
+  "output": {
+    "item": "gtceu:oilsands_clump"
+  }
+}

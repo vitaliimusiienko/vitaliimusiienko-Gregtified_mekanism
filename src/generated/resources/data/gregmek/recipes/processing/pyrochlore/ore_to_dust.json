@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:pyrochlore_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:pyrochlore_dust"
+  }
+}

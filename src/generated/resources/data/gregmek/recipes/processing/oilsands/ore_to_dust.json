@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:oilsands_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:oilsands_dust"
+  }
+}

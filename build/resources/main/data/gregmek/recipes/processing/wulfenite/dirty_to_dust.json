@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_wulfenite_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:wulfenite_dust"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:nether_quartz_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_nether_quartz_dust"
+  }
+}

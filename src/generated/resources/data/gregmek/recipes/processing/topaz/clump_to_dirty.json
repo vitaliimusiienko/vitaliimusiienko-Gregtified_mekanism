@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:topaz_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_topaz_dust"
+  }
+}

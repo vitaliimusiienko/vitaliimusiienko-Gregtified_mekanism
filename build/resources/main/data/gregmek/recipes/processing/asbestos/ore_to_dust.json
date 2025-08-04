@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:asbestos_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:asbestos_dust"
+  }
+}

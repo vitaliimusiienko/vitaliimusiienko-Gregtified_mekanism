@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_aluminium_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:aluminium_dust"
+  }
+}

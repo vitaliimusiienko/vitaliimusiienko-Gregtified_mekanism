@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:electrotine_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_electrotine_dust"
+  }
+}

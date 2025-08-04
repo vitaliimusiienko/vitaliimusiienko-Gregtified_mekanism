@@ -1,0 +1,53 @@
+{
+  "type": "gtceu:autoclave",
+  "category": "gtceu:autoclave",
+  "duration": 40,
+  "inputChanceLogics": {},
+  "inputs": {
+    "fluid": [
+      {
+        "chance": 10000,
+        "content": {
+          "amount": 200,
+          "value": [
+            {
+              "tag": "forge:pure_slurry_chalcocite"
+            }
+          ]
+        },
+        "maxChance": 10000,
+        "tierChanceBoost": 0
+      }
+    ]
+  },
+  "outputChanceLogics": {},
+  "outputs": {
+    "item": [
+      {
+        "chance": 10000,
+        "content": {
+          "type": "gtceu:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "gtceu:chalcocite_crystal"
+          }
+        },
+        "maxChance": 10000,
+        "tierChanceBoost": 0
+      }
+    ]
+  },
+  "tickInputChanceLogics": {},
+  "tickInputs": {
+    "eu": [
+      {
+        "chance": 10000,
+        "content": 30,
+        "maxChance": 10000,
+        "tierChanceBoost": 0
+      }
+    ]
+  },
+  "tickOutputChanceLogics": {},
+  "tickOutputs": {}
+}

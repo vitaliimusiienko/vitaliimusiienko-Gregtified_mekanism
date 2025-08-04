@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:palladium_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_palladium_dust"
+  }
+}

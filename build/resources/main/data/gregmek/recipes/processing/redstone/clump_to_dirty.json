@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:redstone_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_redstone_dust"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:injecting",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:hydrogen_chloride"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "gtceu:neodymium_ore"
+    }
+  },
+  "output": {
+    "count": 3,
+    "item": "gtceu:neodymium_shard"
+  }
+}

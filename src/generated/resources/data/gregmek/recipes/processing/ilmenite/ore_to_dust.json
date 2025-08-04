@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:ilmenite_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:ilmenite_dust"
+  }
+}

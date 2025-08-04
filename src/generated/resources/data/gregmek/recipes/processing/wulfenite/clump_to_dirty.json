@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:wulfenite_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_wulfenite_dust"
+  }
+}

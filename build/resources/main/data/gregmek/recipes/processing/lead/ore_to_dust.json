@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:lead_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:lead_dust"
+  }
+}

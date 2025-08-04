@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:gypsum_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:gypsum_dust"
+  }
+}

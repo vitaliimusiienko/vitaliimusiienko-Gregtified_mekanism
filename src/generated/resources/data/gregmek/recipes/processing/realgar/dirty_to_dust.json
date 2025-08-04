@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_realgar_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:realgar_dust"
+  }
+}

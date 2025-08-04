@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:bauxite_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_bauxite_dust"
+  }
+}

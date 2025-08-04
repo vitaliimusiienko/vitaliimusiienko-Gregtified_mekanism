@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:almandine_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_almandine_dust"
+  }
+}

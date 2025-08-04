@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_olivine_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:olivine_dust"
+  }
+}

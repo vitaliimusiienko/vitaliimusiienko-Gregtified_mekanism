@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:gold_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_gold_dust"
+  }
+}

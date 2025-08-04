@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:dirty_tetrahedrite_dust"
+    }
+  },
+  "output": {
+    "item": "gtceu:tetrahedrite_dust"
+  }
+}

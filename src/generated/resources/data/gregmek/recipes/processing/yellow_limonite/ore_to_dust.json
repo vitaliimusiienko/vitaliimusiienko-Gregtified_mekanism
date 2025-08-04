@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:yellow_limonite_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:yellow_limonite_dust"
+  }
+}

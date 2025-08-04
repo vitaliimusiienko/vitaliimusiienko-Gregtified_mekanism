@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "gtceu:raw_pyrope"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:pyrope_clump"
+  }
+}

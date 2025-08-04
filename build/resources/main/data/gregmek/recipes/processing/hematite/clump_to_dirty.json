@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:hematite_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_hematite_dust"
+  }
+}

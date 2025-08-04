@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:pollucite_ore"
+    }
+  },
+  "output": {
+    "count": 2,
+    "item": "gtceu:pollucite_dust"
+  }
+}

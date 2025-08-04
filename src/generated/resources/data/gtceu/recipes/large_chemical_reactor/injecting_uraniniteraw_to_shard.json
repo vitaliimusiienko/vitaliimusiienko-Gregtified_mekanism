@@ -1,0 +1,79 @@
+{
+  "type": "gtceu:large_chemical_reactor",
+  "category": "gtceu:large_chemical_reactor",
+  "duration": 25,
+  "inputChanceLogics": {},
+  "inputs": {
+    "fluid": [
+      {
+        "chance": 10000,
+        "content": {
+          "amount": 200,
+          "value": [
+            {
+              "tag": "forge:hydrochloric_acid"
+            }
+          ]
+        },
+        "maxChance": 10000,
+        "tierChanceBoost": 0
+      }
+    ],
+    "item": [
+      {
+        "chance": 10000,
+        "content": {
+          "type": "gtceu:sized",
+          "count": 3,
+          "ingredient": {
+            "tag": "forge:raw_materials/uraninite"
+          }
+        },
+        "maxChance": 10000,
+        "tierChanceBoost": 0
+      }
+    ]
+  },
+  "outputChanceLogics": {},
+  "outputs": {
+    "item": [
+      {
+        "chance": 10000,
+        "content": {
+          "type": "gtceu:sized",
+          "count": 8,
+          "ingredient": {
+            "item": "gtceu:uraninite_shard"
+          }
+        },
+        "maxChance": 10000,
+        "tierChanceBoost": 0
+      },
+      {
+        "chance": 3000,
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "gtceu:silver_dust"
+          }
+        },
+        "maxChance": 10000,
+        "tierChanceBoost": 500
+      }
+    ]
+  },
+  "tickInputChanceLogics": {},
+  "tickInputs": {
+    "eu": [
+      {
+        "chance": 10000,
+        "content": 30,
+        "maxChance": 10000,
+        "tierChanceBoost": 0
+      }
+    ]
+  },
+  "tickOutputChanceLogics": {},
+  "tickOutputs": {}
+}

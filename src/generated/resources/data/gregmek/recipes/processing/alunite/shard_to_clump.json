@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "gtceu:alunite_shard"
+    }
+  },
+  "output": {
+    "item": "gtceu:alunite_clump"
+  }
+}

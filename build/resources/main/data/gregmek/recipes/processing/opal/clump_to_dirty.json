@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "gtceu:opal_clump"
+    }
+  },
+  "output": {
+    "item": "gtceu:dirty_opal_dust"
+  }
+}
