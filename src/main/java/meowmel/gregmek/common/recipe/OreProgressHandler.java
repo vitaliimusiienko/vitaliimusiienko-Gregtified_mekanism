@@ -42,13 +42,8 @@ public class OreProgressHandler {
         // 为所有矿物材料生成配方
         for (Material material : GTCEuAPI.materialManager.getRegisteredMaterials()) {
             if (material.hasProperty(PropertyKey.ORE)) {
-                System.out.println("正在处理矿物材料：" + material);
                 String materialName = material.getName();
-
-                //污浊粉添加全部副产
                 OreProperty property = material.getProperty(PropertyKey.ORE);
-
-
                 //溶解
                 ORE_WASHER_RECIPES.recipeBuilder("dissolve_ore" + material.getName())
                         .inputItems(ore, material, 1)

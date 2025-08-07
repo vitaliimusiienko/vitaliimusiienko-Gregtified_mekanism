@@ -33,6 +33,18 @@
         },
         "maxChance": 10000,
         "tierChanceBoost": 0
+      },
+      {
+        "chance": 3000,
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "gtceu:pyrite_dust"
+          }
+        },
+        "maxChance": 10000,
+        "tierChanceBoost": 500
       }
     ]
   },

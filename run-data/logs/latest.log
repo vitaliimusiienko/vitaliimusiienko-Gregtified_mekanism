@@ -1,377 +1,376 @@
-[048月2025 17:43:10.723] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Meowmel\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.6, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, gregmek, --all, --output, E:\模组开发\gregmek\src\generated\resources, --existing, E:\模组开发\gregmek\src\main\resources, --mixin.config, gregmek.mixins.json]
-[048月2025 17:43:10.729] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Azul Systems, Inc.; OS Windows 11 arch amd64 version 10.0
-[048月2025 17:43:10.849] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[048月2025 17:43:10.894] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Meowmel/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[048月2025 17:43:11.174] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Meowmel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.6\9e86bf67e222253576e982856d9958695725adb5\javafmllanguage-1.20.1-47.4.6.jar is missing mods.toml file
-[048月2025 17:43:11.181] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Meowmel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.6\56100545804adc991cc48ab68b86ba46c5873246\lowcodelanguage-1.20.1-47.4.6.jar is missing mods.toml file
-[048月2025 17:43:11.187] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Meowmel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.6\fd228d7d879a9da774eda022ea3092cedb5178f1\mclanguage-1.20.1-47.4.6.jar is missing mods.toml file
-[048月2025 17:43:11.193] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Meowmel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.6\cefc55ada370ce2f23f92834530eb967c0de1fdd\fmlcore-1.20.1-47.4.6.jar is missing mods.toml file
-[048月2025 17:43:11.488] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: ldlib. Using Mod File: C:\Users\Meowmel\.gradle\caches\forge_gradle\deobf_dependencies\com\lowdragmc\ldlib\ldlib-forge-1.20.1\1.0.40.b_mapped_official_1.20.1\ldlib-forge-1.20.1-1.0.40.b_mapped_official_1.20.1.jar
-[048月2025 17:43:11.488] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[048月2025 17:43:13.839] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[048月2025 17:43:13.849] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Meowmel\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, gregmek, --all, --output, E:\模组开发\gregmek\src\generated\resources, --existing, E:\模组开发\gregmek\src\main\resources]
-[048月2025 17:43:13.976] [main/WARN] [mixin/]: Reference map 'gregmek.refmap.json' for gregmek.mixins.json could not be read. If this is a development environment you can ignore this message
-[048月2025 17:43:14.117] [main/INFO] [mixin/]: Remapping refMap configuration.refmap.json using E:\模组开发\gregmek\build\createSrgToMcp\output.srg
-[048月2025 17:43:14.132] [main/INFO] [mixin/]: Remapping refMap ldlib-common-1.20.1-ldlib-common-refmap.json using E:\模组开发\gregmek\build\createSrgToMcp\output.srg
-[048月2025 17:43:14.134] [main/INFO] [mixin/]: Remapping refMap ldlib-forge-1.20.1-ldlib-forge-refmap.json using E:\模组开发\gregmek\build\createSrgToMcp\output.srg
-[048月2025 17:43:14.137] [main/INFO] [mixin/]: Remapping refMap gtceu.refmap.json using E:\模组开发\gregmek\build\createSrgToMcp\output.srg
-[048月2025 17:43:14.818] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [gregmek]
-[048月2025 17:43:14.890] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-rc.3).
-[048月2025 17:43:19.235] [modloading-worker-0/INFO] [meowmel.gregmek.Gregmek/]: gregmek is initializing...
-[048月2025 17:43:19.235] [modloading-worker-0/INFO] [GregTechCEu/]: GregTechCEu is initializing...
-[048月2025 17:43:19.238] [modloading-worker-0/INFO] [GregTechCEu/]: GregMek common proxy init!
-[048月2025 17:43:19.248] [modloading-worker-0/INFO] [LowDragLib/]: LowDragLib is initializing on platform: Forge
-[048月2025 17:43:19.260] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.6, for MC 1.20.1 with MCP 20230612.114412
-[048月2025 17:43:19.261] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.6 Initialized
-[048月2025 17:43:19.445] [modloading-worker-0/INFO] [Configuration/FileWatching]: Registered configuration config for auto-sync function
-[048月2025 17:43:19.552] [modloading-worker-0/INFO] [Configuration/FileWatching]: Registered gtceu config for auto-sync function
-[048月2025 17:43:19.557] [modloading-worker-0/INFO] [GregTechCEu/]: High-Tier is Enabled.
-[048月2025 17:43:19.683] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[048月2025 17:43:19.688] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.468 ms
-[048月2025 17:43:20.895] [modloading-worker-0/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/KubeJSPlugin (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.KubeJSPlugin)
-[048月2025 17:43:20.897] [modloading-worker-0/WARN] [mixin/]: Error loading class: org/embeddedt/modernfix/api/entrypoint/ModernFixClientIntegration (java.lang.ClassNotFoundException: org.embeddedt.modernfix.api.entrypoint.ModernFixClientIntegration)
-[048月2025 17:43:20.917] [main/INFO] [GregTechCEu/]: GTCEu common proxy init!
-[048月2025 17:43:20.993] [main/INFO] [GregTechCEu/]: Registering material registries
-[048月2025 17:43:20.993] [main/INFO] [GregTechCEu/]: Registering GTCEu Materials
-[048月2025 17:43:21.126] [main/INFO] [GregTechCEu/]: Registering addon Materials
-[048月2025 17:43:21.249] [main/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:water
-[048月2025 17:43:21.363] [main/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:lava
-[048月2025 17:43:21.364] [main/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:milk
-[048月2025 17:43:22.767] [main/INFO] [GregTechCEu/]: Registering KeyBinds
-[048月2025 17:43:22.769] [main/WARN] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Mod 'gtceu' took 1.852 s to run a deferred task.
-[048月2025 17:43:24.566] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Meowmel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.6_mapped_official_1.20.1/forge-1.20.1-47.4.6_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[048月2025 17:43:24.567] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Meowmel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.6_mapped_official_1.20.1/forge-1.20.1-47.4.6_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[048月2025 17:43:24.721] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: gregmek
-[048月2025 17:43:24.761] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orealuminium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.767] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawaluminium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.770] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_aluminium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.790] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreberyllium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.793] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawberyllium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.795] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_beryllium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.808] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecobalt is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.811] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcobalt is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.813] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_cobalt_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.827] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecopper is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.828] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcopper is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.830] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_copper_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.840] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregold is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.842] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgold is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.843] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_gold_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.854] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreiron is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.856] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawiron is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.858] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_iron_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.866] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orelead is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.867] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawlead is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.869] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_lead_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.880] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orelithium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.882] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawlithium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.883] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_lithium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.894] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremolybdenum is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.896] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmolybdenum is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.898] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_molybdenum_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.925] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreneodymium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.927] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawneodymium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.929] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_neodymium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.942] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orenickel is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.944] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawnickel is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.946] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_nickel_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.957] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepalladium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.960] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpalladium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.961] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_palladium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.970] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreplatinum is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.972] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawplatinum is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.974] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_platinum_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:24.995] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreplutonium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.996] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawplutonium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:24.999] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_plutonium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.008] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresilver is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.009] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsilver is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.010] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_silver_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.017] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresulfur is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.018] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsulfur is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.019] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_sulfur_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.028] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orethorium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.029] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawthorium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.030] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_thorium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.036] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretin is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.038] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtin is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.039] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_tin_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.045] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orenaquadah is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.045] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawnaquadah is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.045] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_naquadah_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.054] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orealmandine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.054] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawalmandine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.054] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_almandine_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.063] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreasbestos is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.064] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawasbestos is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.066] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_asbestos_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.073] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orehematite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.074] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawhematite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.076] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_hematite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.082] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreblue_topaz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.082] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawblue_topaz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.083] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_blue_topaz_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.089] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregoethite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.089] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgoethite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.091] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_goethite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.096] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecalcite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.096] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcalcite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.097] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_calcite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.101] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecassiterite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.103] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcassiterite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.104] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_cassiterite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.109] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecassiterite_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.109] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcassiterite_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.110] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_cassiterite_sand_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.116] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orechalcopyrite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.116] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawchalcopyrite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.117] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_chalcopyrite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.123] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orechromite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.123] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawchromite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.124] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_chromite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.131] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecinnabar is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.131] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcinnabar is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.132] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_cinnabar_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.138] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecoal is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.139] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcoal is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.140] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_coal_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.144] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecobaltite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.145] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcobaltite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.146] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_cobaltite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.151] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecooperite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.152] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcooperite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.153] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_cooperite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.156] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orediamond is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.157] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawdiamond is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.158] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_diamond_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.162] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreemerald is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.163] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawemerald is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.163] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_emerald_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.167] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregalena is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.168] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgalena is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.168] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_galena_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.172] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregarnierite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.172] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgarnierite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.172] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_garnierite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.176] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregreen_sapphire is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.176] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgreen_sapphire is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.176] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_green_sapphire_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.180] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregrossular is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.180] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgrossular is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.181] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_grossular_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.185] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreilmenite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.185] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawilmenite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.187] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_ilmenite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.190] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orebauxite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.191] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawbauxite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.192] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_bauxite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.195] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orelazurite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.195] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawlazurite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.197] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_lazurite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.200] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremagnesite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.201] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmagnesite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.201] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_magnesite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.205] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremagnetite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.207] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmagnetite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.208] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_magnetite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.210] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremolybdenite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.212] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmolybdenite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.213] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_molybdenite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.215] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepowellite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.216] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpowellite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.216] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_powellite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.220] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepyrite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.220] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpyrite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.221] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pyrite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.223] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepyrolusite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.225] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpyrolusite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.225] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pyrolusite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.229] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepyrope is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.230] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpyrope is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.230] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pyrope_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.235] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orerock_salt is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.235] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawrock_salt is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.236] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_rock_salt_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.239] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreruby is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.240] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawruby is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.240] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_ruby_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.245] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresalt is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.246] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsalt is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.246] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_salt_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.251] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresaltpeter is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.253] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsaltpeter is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.254] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_saltpeter_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.257] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresapphire is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.258] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsapphire is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.258] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_sapphire_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.261] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orescheelite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.263] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawscheelite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.263] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_scheelite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.266] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresodalite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.266] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsodalite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.267] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_sodalite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.270] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretantalite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.271] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtantalite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.271] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_tantalite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.276] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orespessartine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.277] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawspessartine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.277] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_spessartine_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.281] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresphalerite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.281] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsphalerite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.281] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_sphalerite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.284] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orestibnite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.286] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawstibnite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.286] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_stibnite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.289] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretetrahedrite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.290] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtetrahedrite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.290] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_tetrahedrite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.293] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretopaz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.294] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtopaz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.294] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_topaz_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.297] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretungstate is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.298] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtungstate is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.299] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_tungstate_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.301] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreuraninite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.302] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawuraninite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.302] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_uraninite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.306] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orewulfenite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.308] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawwulfenite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.308] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_wulfenite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.311] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreyellow_limonite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.311] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawyellow_limonite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.312] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_yellow_limonite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.316] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orenether_quartz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.316] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawnether_quartz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.317] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_nether_quartz_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.320] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecertus_quartz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.321] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcertus_quartz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.321] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_certus_quartz_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.324] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orequartzite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.324] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawquartzite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.325] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_quartzite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.328] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregraphite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.328] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgraphite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.329] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_graphite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.332] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orebornite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.332] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawbornite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.333] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_bornite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.336] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orechalcocite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.337] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawchalcocite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.337] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_chalcocite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.340] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orerealgar is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.341] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawrealgar is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.342] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_realgar_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.344] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orebastnasite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.345] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawbastnasite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.345] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_bastnasite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.349] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepentlandite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.350] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpentlandite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.351] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pentlandite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.354] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orespodumene is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.354] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawspodumene is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.355] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_spodumene_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.358] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orelepidolite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.358] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawlepidolite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.358] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_lepidolite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.362] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreglauconite_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.362] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawglauconite_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.363] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_glauconite_sand_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.367] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremalachite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.368] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmalachite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.368] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_malachite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.371] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremica is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.372] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmica is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.373] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_mica_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.377] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orebarite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.378] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawbarite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.379] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_barite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.382] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orealunite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.383] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawalunite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.383] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_alunite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.386] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretalc is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.387] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtalc is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.387] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_talc_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.391] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresoapstone is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.391] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsoapstone is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.392] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_soapstone_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.396] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orekyanite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.398] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawkyanite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.399] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_kyanite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.402] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepyrochlore is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.404] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpyrochlore is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.404] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pyrochlore_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.408] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreoilsands is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.408] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawoilsands is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.408] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_oilsands_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.413] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreolivine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.413] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawolivine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.414] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_olivine_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.416] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreopal is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.417] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawopal is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.417] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_opal_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.421] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreamethyst is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.422] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawamethyst is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.422] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_amethyst_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.426] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orelapis is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.427] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawlapis is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.428] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_lapis_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.432] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreapatite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.432] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawapatite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.433] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_apatite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.437] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretricalcium_phosphate is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.437] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtricalcium_phosphate is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.438] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_tricalcium_phosphate_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.442] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orered_garnet is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.442] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawred_garnet is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.443] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_red_garnet_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.447] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreyellow_garnet is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.447] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawyellow_garnet is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.448] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_yellow_garnet_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.451] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orevanadium_magnetite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.451] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawvanadium_magnetite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.452] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_vanadium_magnetite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.454] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepollucite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.455] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpollucite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.457] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pollucite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.459] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orebentonite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.460] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawbentonite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.461] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_bentonite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.463] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orefullers_earth is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.464] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawfullers_earth is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.464] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_fullers_earth_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.467] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepitchblende is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.468] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpitchblende is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.469] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pitchblende_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.472] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremonazite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.472] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmonazite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.473] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_monazite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.477] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretrona is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.477] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtrona is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.478] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_trona_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.481] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregypsum is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.481] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgypsum is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.483] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_gypsum_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.486] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orezeolite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.487] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawzeolite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.488] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_zeolite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.492] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreredstone is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.493] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawredstone is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.493] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_redstone_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.497] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreelectrotine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.498] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawelectrotine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.499] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_electrotine_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.504] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orediatomite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.504] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawdiatomite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.505] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_diatomite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.511] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregranitic_mineral_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.512] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgranitic_mineral_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.513] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_granitic_mineral_sand_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.519] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregarnet_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.520] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgarnet_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.521] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_garnet_sand_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.526] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orebasaltic_mineral_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.528] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawbasaltic_mineral_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
-[048月2025 17:43:25.529] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_basaltic_mineral_sand_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
-[048月2025 17:43:25.534] [main/INFO] [net.minecraft.data.DataGenerator/]: gregmek finished after 811 ms
-[048月2025 17:43:25.534] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 813 ms
-[048月2025 17:43:25.601] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 2970, old count: 2857, new count: 2969, removed stale: 2, written: 1541
+[048月2025 21:21:05.291] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Meowmel\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.6, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, gregmek, --all, --output, E:\模组开发\gregmek\src\generated\resources, --existing, E:\模组开发\gregmek\src\main\resources, --mixin.config, gregmek.mixins.json]
+[048月2025 21:21:05.298] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Azul Systems, Inc.; OS Windows 11 arch amd64 version 10.0
+[048月2025 21:21:05.432] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[048月2025 21:21:05.483] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Meowmel/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[048月2025 21:21:05.795] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Meowmel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.6\9e86bf67e222253576e982856d9958695725adb5\javafmllanguage-1.20.1-47.4.6.jar is missing mods.toml file
+[048月2025 21:21:05.801] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Meowmel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.6\56100545804adc991cc48ab68b86ba46c5873246\lowcodelanguage-1.20.1-47.4.6.jar is missing mods.toml file
+[048月2025 21:21:05.807] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Meowmel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.6\fd228d7d879a9da774eda022ea3092cedb5178f1\mclanguage-1.20.1-47.4.6.jar is missing mods.toml file
+[048月2025 21:21:05.813] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Meowmel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.6\cefc55ada370ce2f23f92834530eb967c0de1fdd\fmlcore-1.20.1-47.4.6.jar is missing mods.toml file
+[048月2025 21:21:06.121] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: ldlib. Using Mod File: C:\Users\Meowmel\.gradle\caches\forge_gradle\deobf_dependencies\com\lowdragmc\ldlib\ldlib-forge-1.20.1\1.0.40.b_mapped_official_1.20.1\ldlib-forge-1.20.1-1.0.40.b_mapped_official_1.20.1.jar
+[048月2025 21:21:06.121] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[048月2025 21:21:08.801] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[048月2025 21:21:08.814] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Meowmel\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, gregmek, --all, --output, E:\模组开发\gregmek\src\generated\resources, --existing, E:\模组开发\gregmek\src\main\resources]
+[048月2025 21:21:08.939] [main/WARN] [mixin/]: Reference map 'gregmek.refmap.json' for gregmek.mixins.json could not be read. If this is a development environment you can ignore this message
+[048月2025 21:21:09.120] [main/INFO] [mixin/]: Remapping refMap configuration.refmap.json using E:\模组开发\gregmek\build\createSrgToMcp\output.srg
+[048月2025 21:21:09.128] [main/INFO] [mixin/]: Remapping refMap ldlib-common-1.20.1-ldlib-common-refmap.json using E:\模组开发\gregmek\build\createSrgToMcp\output.srg
+[048月2025 21:21:09.130] [main/INFO] [mixin/]: Remapping refMap ldlib-forge-1.20.1-ldlib-forge-refmap.json using E:\模组开发\gregmek\build\createSrgToMcp\output.srg
+[048月2025 21:21:09.134] [main/INFO] [mixin/]: Remapping refMap gtceu.refmap.json using E:\模组开发\gregmek\build\createSrgToMcp\output.srg
+[048月2025 21:21:09.930] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [gregmek]
+[048月2025 21:21:09.999] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-rc.3).
+[048月2025 21:21:14.261] [modloading-worker-0/INFO] [GregTechCEu/]: GregTechCEu is initializing...
+[048月2025 21:21:14.261] [modloading-worker-0/INFO] [meowmel.gregmek.Gregmek/]: gregmek is initializing...
+[048月2025 21:21:14.275] [modloading-worker-0/INFO] [LowDragLib/]: LowDragLib is initializing on platform: Forge
+[048月2025 21:21:14.291] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.6, for MC 1.20.1 with MCP 20230612.114412
+[048月2025 21:21:14.293] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.6 Initialized
+[048月2025 21:21:14.447] [modloading-worker-0/INFO] [Configuration/FileWatching]: Registered configuration config for auto-sync function
+[048月2025 21:21:14.596] [modloading-worker-0/INFO] [Configuration/FileWatching]: Registered gtceu config for auto-sync function
+[048月2025 21:21:14.608] [modloading-worker-0/INFO] [GregTechCEu/]: High-Tier is Enabled.
+[048月2025 21:21:14.774] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[048月2025 21:21:14.782] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.555 ms
+[048月2025 21:21:15.968] [modloading-worker-0/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/KubeJSPlugin (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.KubeJSPlugin)
+[048月2025 21:21:15.971] [modloading-worker-0/WARN] [mixin/]: Error loading class: org/embeddedt/modernfix/api/entrypoint/ModernFixClientIntegration (java.lang.ClassNotFoundException: org.embeddedt.modernfix.api.entrypoint.ModernFixClientIntegration)
+[048月2025 21:21:15.984] [main/INFO] [GregTechCEu/]: GTCEu common proxy init!
+[048月2025 21:21:16.054] [main/INFO] [GregTechCEu/]: Registering material registries
+[048月2025 21:21:16.055] [main/INFO] [GregTechCEu/]: Registering GTCEu Materials
+[048月2025 21:21:16.219] [main/INFO] [GregTechCEu/]: Registering addon Materials
+[048月2025 21:21:16.368] [main/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:water
+[048月2025 21:21:16.527] [main/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:lava
+[048月2025 21:21:16.528] [main/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:milk
+[048月2025 21:21:18.436] [main/INFO] [GregTechCEu/]: Registering KeyBinds
+[048月2025 21:21:18.441] [main/WARN] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Mod 'gtceu' took 2.456 s to run a deferred task.
+[048月2025 21:21:20.446] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Meowmel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.6_mapped_official_1.20.1/forge-1.20.1-47.4.6_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[048月2025 21:21:20.446] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Meowmel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.6_mapped_official_1.20.1/forge-1.20.1-47.4.6_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[048月2025 21:21:20.607] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: gregmek
+[048月2025 21:21:20.659] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orealuminium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.666] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawaluminium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.671] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_aluminium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.695] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreberyllium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.696] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawberyllium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.701] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_beryllium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.717] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecobalt is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.719] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcobalt is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.722] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_cobalt_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.738] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecopper is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.740] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcopper is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.743] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_copper_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.756] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregold is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.756] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgold is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.763] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_gold_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.775] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreiron is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.775] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawiron is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.780] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_iron_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.788] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orelead is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.788] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawlead is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.792] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_lead_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.799] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orelithium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.799] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawlithium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.799] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_lithium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.811] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremolybdenum is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.811] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmolybdenum is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.811] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_molybdenum_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.822] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreneodymium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.823] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawneodymium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.824] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_neodymium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.832] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orenickel is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.833] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawnickel is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.834] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_nickel_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.841] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepalladium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.842] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpalladium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.843] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_palladium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.849] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreplatinum is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.849] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawplatinum is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.850] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_platinum_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.858] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreplutonium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.859] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawplutonium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.860] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_plutonium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.866] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresilver is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.866] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsilver is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.866] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_silver_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.878] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresulfur is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.879] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsulfur is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.883] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_sulfur_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.892] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orethorium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.895] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawthorium is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.896] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_thorium_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.910] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretin is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.912] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtin is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.914] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_tin_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.926] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orenaquadah is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.926] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawnaquadah is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.932] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_naquadah_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.938] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orealmandine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.942] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawalmandine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.943] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_almandine_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.950] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreasbestos is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.960] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawasbestos is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.962] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_asbestos_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.975] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orehematite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.979] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawhematite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.981] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_hematite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.993] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreblue_topaz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.993] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawblue_topaz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:20.996] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_blue_topaz_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:20.999] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregoethite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.003] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgoethite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.005] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_goethite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.010] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecalcite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.011] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcalcite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.011] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_calcite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.021] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecassiterite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.022] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcassiterite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.023] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_cassiterite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.030] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecassiterite_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.030] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcassiterite_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.030] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_cassiterite_sand_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.035] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orechalcopyrite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.035] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawchalcopyrite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.039] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_chalcopyrite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.041] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orechromite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.041] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawchromite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.045] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_chromite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.050] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecinnabar is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.051] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcinnabar is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.052] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_cinnabar_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.054] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecoal is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.058] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcoal is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.059] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_coal_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.061] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecobaltite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.061] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcobaltite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.061] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_cobaltite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.066] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecooperite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.066] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcooperite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.066] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_cooperite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.070] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orediamond is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.070] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawdiamond is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.071] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_diamond_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.072] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreemerald is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.072] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawemerald is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.072] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_emerald_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.078] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregalena is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.079] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgalena is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.079] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_galena_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.084] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregarnierite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.084] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgarnierite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.084] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_garnierite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.090] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregreen_sapphire is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.090] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgreen_sapphire is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.090] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_green_sapphire_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.095] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregrossular is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.096] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgrossular is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.096] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_grossular_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.103] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreilmenite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.104] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawilmenite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.104] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_ilmenite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.107] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orebauxite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.108] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawbauxite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.108] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_bauxite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.112] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orelazurite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.113] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawlazurite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.114] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_lazurite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.118] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremagnesite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.118] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmagnesite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.118] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_magnesite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.124] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremagnetite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.124] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmagnetite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.125] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_magnetite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.125] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremolybdenite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.125] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmolybdenite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.125] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_molybdenite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.133] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepowellite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.134] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpowellite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.134] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_powellite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.137] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepyrite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.138] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpyrite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.138] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pyrite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.142] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepyrolusite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.143] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpyrolusite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.144] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pyrolusite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.146] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepyrope is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.147] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpyrope is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.147] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pyrope_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.150] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orerock_salt is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.151] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawrock_salt is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.152] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_rock_salt_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.154] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreruby is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.155] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawruby is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.155] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_ruby_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.159] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresalt is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.159] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsalt is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.160] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_salt_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.162] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresaltpeter is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.162] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsaltpeter is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.162] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_saltpeter_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.167] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresapphire is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.167] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsapphire is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.168] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_sapphire_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.168] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orescheelite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.168] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawscheelite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.168] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_scheelite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.174] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresodalite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.174] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsodalite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.174] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_sodalite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.179] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretantalite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.179] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtantalite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.179] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_tantalite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.184] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orespessartine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.185] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawspessartine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.185] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_spessartine_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.188] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresphalerite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.188] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsphalerite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.188] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_sphalerite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.193] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orestibnite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.193] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawstibnite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.193] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_stibnite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.198] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretetrahedrite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.198] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtetrahedrite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.199] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_tetrahedrite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.203] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretopaz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.203] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtopaz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.204] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_topaz_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.204] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretungstate is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.204] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtungstate is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.204] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_tungstate_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.210] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreuraninite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.210] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawuraninite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.210] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_uraninite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.215] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orewulfenite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.215] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawwulfenite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.215] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_wulfenite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.215] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreyellow_limonite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.220] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawyellow_limonite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.220] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_yellow_limonite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.222] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orenether_quartz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.222] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawnether_quartz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.222] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_nether_quartz_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.222] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orecertus_quartz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.228] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawcertus_quartz is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.229] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_certus_quartz_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.231] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orequartzite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.231] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawquartzite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.231] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_quartzite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.234] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregraphite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.234] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgraphite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.234] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_graphite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.234] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orebornite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.234] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawbornite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.240] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_bornite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.242] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orechalcocite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.242] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawchalcocite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.242] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_chalcocite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.247] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orerealgar is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.247] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawrealgar is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.247] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_realgar_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.247] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orebastnasite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.247] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawbastnasite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.252] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_bastnasite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.253] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepentlandite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.253] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpentlandite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.253] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pentlandite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.259] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orespodumene is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.260] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawspodumene is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.260] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_spodumene_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.263] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orelepidolite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.264] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawlepidolite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.264] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_lepidolite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.268] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreglauconite_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.269] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawglauconite_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.269] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_glauconite_sand_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.272] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremalachite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.272] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmalachite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.274] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_malachite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.277] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremica is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.277] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmica is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.277] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_mica_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.280] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orebarite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.280] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawbarite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.281] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_barite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.284] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orealunite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.284] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawalunite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.284] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_alunite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.284] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretalc is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.289] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtalc is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.290] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_talc_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.290] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oresoapstone is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.290] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawsoapstone is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.290] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_soapstone_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.295] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orekyanite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.295] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawkyanite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.295] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_kyanite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.295] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepyrochlore is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.301] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpyrochlore is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.301] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pyrochlore_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.301] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreoilsands is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.301] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawoilsands is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.306] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_oilsands_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.310] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreolivine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.310] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawolivine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.312] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_olivine_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.312] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreopal is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.312] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawopal is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.312] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_opal_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.317] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreamethyst is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.319] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawamethyst is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.320] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_amethyst_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.320] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orelapis is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.320] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawlapis is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.324] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_lapis_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.327] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreapatite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.327] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawapatite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.327] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_apatite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.331] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretricalcium_phosphate is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.331] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtricalcium_phosphate is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.331] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_tricalcium_phosphate_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.343] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orered_garnet is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.343] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawred_garnet is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.343] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_red_garnet_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.349] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreyellow_garnet is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.349] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawyellow_garnet is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.349] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_yellow_garnet_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.349] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orevanadium_magnetite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.349] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawvanadium_magnetite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.349] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_vanadium_magnetite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.355] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepollucite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.355] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpollucite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.355] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pollucite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.359] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orebentonite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.359] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawbentonite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.362] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_bentonite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.362] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orefullers_earth is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.362] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawfullers_earth is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.362] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_fullers_earth_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.368] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orepitchblende is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.368] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawpitchblende is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.368] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_pitchblende_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.372] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oremonazite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.372] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawmonazite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.373] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_monazite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.373] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oretrona is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.373] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawtrona is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.373] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_trona_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.379] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregypsum is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.380] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgypsum is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.380] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_gypsum_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.380] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orezeolite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.380] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawzeolite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.380] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_zeolite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.386] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreredstone is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.386] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawredstone is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.390] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_redstone_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.391] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oreelectrotine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.391] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawelectrotine is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.391] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_electrotine_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.397] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orediatomite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.397] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawdiatomite is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.397] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_diatomite_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.403] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregranitic_mineral_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.403] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgranitic_mineral_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.404] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_granitic_mineral_sand_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.404] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_oregarnet_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.404] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawgarnet_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.404] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_garnet_sand_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.410] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_orebasaltic_mineral_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.410] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:dissolve_rawbasaltic_mineral_sand is trying to add more outputs than its recipe type can support, Max fluid outputs: 0
+[048月2025 21:21:21.413] [ForkJoinPool.commonPool-worker-1/WARN] [GregTechCEu/]: Recipe gtceu:pure_slurry_basaltic_mineral_sand_by_wash is trying to add more inputs than its recipe type can support, Max fluid inputs: 1
+[048月2025 21:21:21.417] [main/INFO] [net.minecraft.data.DataGenerator/]: gregmek finished after 808 ms
+[048月2025 21:21:21.417] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 809 ms
+[048月2025 21:21:21.458] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 2971, old count: 2968, new count: 2969, removed stale: 3, written: 3

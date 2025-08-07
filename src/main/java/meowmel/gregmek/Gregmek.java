@@ -2,6 +2,7 @@ package meowmel.gregmek;
 
 import com.gregtechceu.gtceu.api.GTCEuAPI;
 import com.gregtechceu.gtceu.api.data.chemical.material.Material;
+import com.gregtechceu.gtceu.api.data.chemical.material.event.MaterialEvent;
 import com.gregtechceu.gtceu.api.data.chemical.material.event.PostMaterialEvent;
 import com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty;
 import com.gregtechceu.gtceu.api.data.chemical.material.properties.PropertyKey;
@@ -12,6 +13,7 @@ import com.mojang.logging.LogUtils;
 import meowmel.gregmek.client.ClientProxy;
 import meowmel.gregmek.common.CommonProxy;
 import meowmel.gregmek.common.materials.FluidStorageKeysAddition;
+import meowmel.gregmek.common.materials.TagPrefixAddition;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
@@ -38,6 +40,7 @@ public class Gregmek {
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::modifyMaterials);
+        modEventBus.addListener(this::registerMaterials);
 
         DistExecutor.unsafeRunForDist(() -> ClientProxy::new, () -> CommonProxy::new);
     }
@@ -45,15 +48,16 @@ public class Gregmek {
     public static void init() {
         LOGGER.info("{} is initializing...", MODID);
     }
-
+    @SubscribeEvent
+    public void registerMaterials(MaterialEvent event) {
+        TagPrefixAddition.init();
+    }
     public static ResourceLocation rl(String path) {
         return ResourceLocation.fromNamespaceAndPath(MODID, path);
     }
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-        // Do something when the server starts
-        LOGGER.info("HELLO from server starting");
     }
     @SubscribeEvent
     public void modifyMaterials(PostMaterialEvent event) {

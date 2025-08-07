@@ -249,6 +249,7 @@ Writing Output: E:\￦ﾨﾡ￧ﾻﾄ￥ﾼﾀ￥ﾏﾑ\gregmek\build\reobfJar\o
   data/gregmek/recipes/processing/basaltic_mineral_sand/block_to_shard.json
   data/gregmek/recipes/processing/basaltic_mineral_sand/clump_to_dirty.json
   data/gregmek/recipes/processing/basaltic_mineral_sand/crystal_to_shard.json
+  data/gregmek/recipes/processing/basaltic_mineral_sand/ore_to_dust.json
   data/gregmek/recipes/processing/basaltic_mineral_sand/raw_to_clump.json
   data/gregmek/recipes/processing/basaltic_mineral_sand/raw_to_shard.json
   data/gregmek/recipes/processing/basaltic_mineral_sand/shard_to_clump.json
@@ -1386,6 +1387,116 @@ Writing Output: E:\￦ﾨﾡ￧ﾻﾄ￥ﾼﾀ￥ﾏﾑ\gregmek\build\reobfJar\o
   data/gtceu/recipes/autoclave/crystal_yellow_garnet_by_pure_slurry.json
   data/gtceu/recipes/autoclave/crystal_yellow_limonite_by_pure_slurry.json
   data/gtceu/recipes/autoclave/crystal_zeolite_by_pure_slurry.json
+  data/gtceu/recipes/centrifuge/
+  data/gtceu/recipes/centrifuge/centrifuge_almandine_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_aluminium_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_alunite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_amethyst_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_apatite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_asbestos_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_barite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_bastnasite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_bauxite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_bentonite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_beryllium_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_blue_topaz_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_bornite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_calcite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_cassiterite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_cassiterite_sand_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_certus_quartz_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_chalcocite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_chalcopyrite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_chromite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_cinnabar_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_coal_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_cobalt_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_cobaltite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_cooperite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_copper_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_diamond_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_diatomite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_electrotine_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_emerald_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_fullers_earth_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_galena_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_garnet_sand_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_garnierite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_glauconite_sand_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_goethite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_gold_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_granitic_mineral_sand_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_graphite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_green_sapphire_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_grossular_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_gypsum_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_hematite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_ilmenite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_iron_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_kyanite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_lapis_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_lazurite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_lead_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_lepidolite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_lithium_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_magnesite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_magnetite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_malachite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_mica_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_molybdenite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_molybdenum_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_monazite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_naquadah_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_neodymium_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_nether_quartz_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_nickel_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_oilsands_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_olivine_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_opal_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_palladium_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_pentlandite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_pitchblende_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_platinum_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_plutonium_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_pollucite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_powellite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_pyrite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_pyrochlore_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_pyrolusite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_pyrope_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_quartzite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_realgar_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_red_garnet_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_redstone_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_rock_salt_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_ruby_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_salt_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_saltpeter_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_sapphire_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_scheelite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_silver_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_soapstone_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_sodalite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_spessartine_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_sphalerite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_spodumene_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_stibnite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_sulfur_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_talc_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_tantalite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_tetrahedrite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_thorium_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_tin_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_topaz_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_tricalcium_phosphate_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_trona_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_tungstate_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_uraninite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_vanadium_magnetite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_wulfenite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_yellow_garnet_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_yellow_limonite_ore_by_product.json
+  data/gtceu/recipes/centrifuge/centrifuge_zeolite_ore_by_product.json
   data/gtceu/recipes/chemical_bath/
   data/gtceu/recipes/chemical_bath/pure_slurry_almandine_by_wash.json
   data/gtceu/recipes/chemical_bath/pure_slurry_aluminium_by_wash.json
@@ -2826,6 +2937,7 @@ Writing Output: E:\￦ﾨﾡ￧ﾻﾄ￥ﾼﾀ￥ﾏﾑ\gregmek\build\reobfJar\o
   data/gtceu/recipes/macerator/macerator_apatite_to_dirty_dust.json
   data/gtceu/recipes/macerator/macerator_asbestos_to_dirty_dust.json
   data/gtceu/recipes/macerator/macerator_barite_to_dirty_dust.json
+  data/gtceu/recipes/macerator/macerator_basaltic_mineral_sand_to_dirty_dust.json
   data/gtceu/recipes/macerator/macerator_bastnasite_to_dirty_dust.json
   data/gtceu/recipes/macerator/macerator_bauxite_to_dirty_dust.json
   data/gtceu/recipes/macerator/macerator_bentonite_to_dirty_dust.json
