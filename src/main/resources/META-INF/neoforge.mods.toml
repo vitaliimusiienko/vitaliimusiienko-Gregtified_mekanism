@@ -1,0 +1,44 @@
+modLoader = "javafml"
+# Диапазон поддерживаемых версий загрузчика (NeoForge 21.x)
+loaderVersion = "[21,)"
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_authors}"
+description = '''${mod_description}'''
+# logoFile = "logo.png" # Раскомментируй, если добавишь иконку мода
+
+# Зависимость от ядра NeoForge
+[[dependencies."${mod_id}"]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+# Зависимость от Minecraft 1.21.1
+[[dependencies."${mod_id}"]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1, 1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+# Обязательная зависимость от Mekanism
+[[dependencies."${mod_id}"]]
+modId = "mekanism"
+type = "required"
+versionRange = "[10.7.19,)"
+ordering = "AFTER"
+side = "BOTH"
+
+# Обязательная зависимость от GregTech CEu Modern
+[[dependencies."${mod_id}"]]
+modId = "gtceu"
+type = "required"
+versionRange = "[7.0.2,)"
+ordering = "AFTER"
+side = "BOTH"
